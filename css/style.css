@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*header starts*/
+.wrapper{
+    width: 95%;
+    overflow: hidden;
+}
+header{
+    min-height: 85px;
+    background-color: #3B5998;
+    overflow: hidden;
+}
+.left_side {
+    width: 55%;
+    float: left;
+}
+.left_side h1{
+       color: #fff;
+    padding: 18px 167px;
+    font-size: 49px;
+}
+.right_side {
+    width: 45%;
+    float: right;
+}
+
+.email {
+    color: #fff;
+    font-size: 18px;
+    float: left;
+    padding: 23px 10px;
+}
+.email input{
+        max-width: 158px;
+    max-height: 50px;
+    
+}
+
+.password {
+    color: #fff;
+    font-size: 18px;
+    float: left;
+    padding: 23px 10px;
+    float: left;
+}
+.password input{
+      max-width: 158px;
+    max-height: 50px; 
+   
+}
+.password p{
+        font-size: 14px;
+    color: #61A0D8;
+    margin-top: 7px;
+}
+
+.signup {
+    padding: 45px 10px;
+}
+.signup input{
+    background-color:#4267B2 ;
+    color: #fff;
+    padding: 1px 3px;
+    
+}
+.signup input:hover{
+    background-color: #3B5998 ;
+    cursor: pointer;
+}
+/*header ends*/
+/*body starts*/
+.body{
+        min-height: 500px;
+    background-color: #E1E4EF;
+    overflow: hidden;
+}
+.left_part{
+    float: left;
+    width: 55%;
+}
+.left_part h3{
+        padding: 40px 160px;
+    font-size: 21px;
+    color: #0E385F;
+}
+.logo{
+        padding: 0px 155px;
+}
+.form_part{
+    width: 45%;
+    float: right;
+}
+.form_part h2{
+    padding: 0px 10px;
+    font-size: 41px;
+    color: #333333;
+    margin-top: 21px;
+}
+.form_part p{
+    font-size: 19px;
+    margin-top: 0px;
+}
+.first{
+    height: 30px;
+    width: 170px;
+    border-radius: 3px;
+}
+.second{
+    height: 30px;
+    width: 350px;
+    border-radius: 3px;
+    margin-top: 10px;
+}
+.form-birthday{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.third{
+    height: 30px;
+    float: left;
+}
+.form-birthday p{
+    color: #3B59C5;
+    font-size: 15px;
+}
+.form-radio{}
+.form-radio p{
+   font-size: 15px;
+    margin-top: 10px;  
+}
+.view{
+    background-color: #609C4D;
+    padding: 9px 50px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.view:hover{
+    cursor: pointer;
+}
+.form-button p{
+    margin-top: 30px;
+    font-size: 18px;
+}
+.txt{
+    color: #3B59C5;
+}
+.form-ll input{
+     border: 2px solid lightgray;
+    border-radius: 5px;
+}
+
+/*body ends*/
+/*footer starts*/
+.footer{
+    min-height: 150px;
+    background-color: #fff;
+}
+.pera1{
+    margin: 0 auto;
+    color: #3B59C5;
+    margin-left: 53px;
+    margin-top: 55px;
+}
+.pera2{
+        margin: 0 auto;
+    color: #3B59C5;
+    margin-left: 50px;
+    margin-top: 6px;
+    border-top: 1px solid lightgray;
+}
+.pera3{
+        margin-left: 48px;
+    margin-top: 10px;
+    font-size: 15px;
+    color: darkgray;
+}
+/*footer ends*/
