@@ -33,8 +33,8 @@ header{
     padding: 23px 10px;
 }
 .email input{
-        max-width: 158px;
-    max-height: 50px;
+      min-width: 182px;
+    min-height: 21px;
     
 }
 
@@ -46,8 +46,8 @@ header{
     float: left;
 }
 .password input{
-      max-width: 158px;
-    max-height: 50px; 
+    min-width: 182px;
+    min-height: 21px;
    
 }
 .password p{
@@ -101,6 +101,7 @@ header{
 .form_part p{
     font-size: 19px;
     margin-top: 0px;
+    padding: 3px 10px;
 }
 .first{
     height: 30px;
@@ -109,7 +110,7 @@ header{
 }
 .second{
     height: 30px;
-    width: 350px;
+    width: 407px;
     border-radius: 3px;
     margin-top: 10px;
 }
@@ -149,6 +150,7 @@ header{
 .form-ll input{
      border: 2px solid lightgray;
     border-radius: 5px;
+    padding: 3px 30px;
 }
 
 /*body ends*/
